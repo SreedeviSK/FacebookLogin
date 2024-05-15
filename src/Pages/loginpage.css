@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .header {
+
+    height: 100px;
+    width: 100%;
+    
+    
+  }
+  
+ .main {
+    position: absolute;
+    top: 25%;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+  
+  }
+  
+.left {
+    
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+.right {
+    flex: 1;
+  }
+  
+.left p {
+    font-family: sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.2px;
+    margin-left: 0;
+    margin-top: -32px;
+    font-weight: 400;
+    line-height: 34px;
+  }
+  
+.left img {
+    height: 142px;
+    width: 261px;
+  }
+  
+.right form {
+    background: #fff;
+    width: 396px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding: 20px 0 28px;
+    border-radius: 8px;
+    margin-top: -50px;
+  }
+  
+  .form_login {
+    padding: 0 12px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
+  
+  }
+  
+  form input {
+    flex: 1;
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    font-size: 17px;
+    border-radius: 5px;
+    outline-color: #8AB7EF;
+  }
+  
+  .login {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 100%;
+    padding: 0 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .forget {
+    text-align: center;
+    color: #1877f2;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin: 5px 0;
+    font-family: sans-serif;
+  }
+  
+  .forget:hover {
+    text-decoration: underline;
+  }
+  
+  .line {
+   background-color: #d9dde3;
+    height: 0.1px;
+    border: none;
+    
+  
+  }
+  
+  .create {
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 200px;
+    padding: 0 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    margin: auto;
+  }
+  
+  .foot {
+  
+    margin-top: 28px;
+    margin-left: 35px;
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+  
+  .foot span {
+    font-weight: bold;
+  }
+  
+  .layer{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 22;
+    opacity: 0.7;
+    display: none;
+  }
